@@ -9,7 +9,7 @@ import lombok.*;
 @ToString
 public class AaEvent extends AbstractEvent {
 
-    private String id;
+    private Long id;
     private String name;
     private Integer size;
     private String userid;

@@ -9,4 +9,4 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
     path = "aaAgregates"
 )
 public interface AaAgregateRepository
-    extends PagingAndSortingRepository<AaAgregate, String> {}
+    extends PagingAndSortingRepository<AaAgregate, Long> {}
